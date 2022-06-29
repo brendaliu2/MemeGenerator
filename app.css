@@ -7,41 +7,37 @@ h1 {
     color: #f4f1de;
     margin: 20px;
     padding: 20px;
+    font-family: 'Cormorant Garamond', serif;
 }
 
-h2 {
-    margin: 10px;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #f2cc8f;
-}
 
 label {
     display: inline-block;
     width: 180px;
     text-align: left;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 input {
     width: 75vw;
     margin: 5px;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 #post {
     margin-bottom: 50px;
     margin-top: 15px;
     float: right;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 #memeFormContainer {
     margin-bottom: 100px;
-    /* margin-left: 0px;
-    margin-right: 0px;
-    padding: 1vw;
-    background-color: #f2cc8f;
-    background-size: 100vw; */
 }
 
+#delete-btn {
+    font-family: 'Cormorant Garamond', serif;
+}
 
 
 .top {
