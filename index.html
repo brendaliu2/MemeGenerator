@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="app.css">
+  <script defer src='app.js'></script>
+
+</head>
+
+<body>
+
+  <h1 class="text-center rainbow-text">Welcome to the Meme Generator</h1>
+
+  <div class="container" id="memeFormContainer">
+    <form action="/memes" id="memeForm">
+      <label for="imageURL">Image URL</label>
+      <input type="text" name="imageURL" placeholder="Paste Image URL"><br>
+      <label for="topText">Top Image Caption</label>
+      <input type="text" name="topText" placeholder="(Optional) Enter Top Line Caption"><br>
+      <label for="bottomText">Bottom Image Caption</label>
+      <input type="text" name="bottomText" placeholder="(Optional) Enter Bottom Line Caption"><br>
+      <button id="post" class="btn btn-dark">Add Meme</button>
+    </form>
+  </div>
+
+  <!-- <h2>Memes Below:</h2> -->
+  <div id="memes"></div>
+
+
+  </div>
+
+
+
+</body>
+
+</html>
