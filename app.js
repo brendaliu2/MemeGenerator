@@ -13,7 +13,7 @@ memeForm.addEventListener('submit', function (e) {
 
 const addMeme = (topText, bottomText, imageURL) => {
     const newMeme = document.createElement('div');
-    newMeme.className = 'meme';
+    newMeme.className = 'meme container center';
     const top = document.createElement('div');
     top.className = 'top';
     const bottom = document.createElement('div');
@@ -24,6 +24,7 @@ const addMeme = (topText, bottomText, imageURL) => {
     const deleteButton = document.createElement('button');
     deleteButton.innerText = 'Remove';
     deleteButton.className = 'btn btn-outline-dark btn-sm';
+    deleteButton.id = 'delete-btn'
     top.append(topText)
     bottom.append(bottomText)
     newMeme.append(memeImg);
